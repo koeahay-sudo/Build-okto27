@@ -1,0 +1,8 @@
+{
+  "_comment": "Maintenance state. Managed by /maintenance {alasan} and /unmaintenance commands.",
+  "active": false,
+  "reason": "",
+  "since": null,
+  "setBy": null,
+  "history": []
+}

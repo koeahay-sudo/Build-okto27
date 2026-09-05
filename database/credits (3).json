@@ -1,0 +1,9 @@
+{
+  "_comment": "Format: { \"userId\": { \"credit\": 3, \"lastRefill\": \"2025-01-01T00:00:00.000Z\" } }",
+  "_example": {
+    "123456789": {
+      "credit": 3,
+      "lastRefill": "2025-01-01T00:00:00.000Z"
+    }
+  }
+}

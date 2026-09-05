@@ -1,0 +1,43 @@
+{
+  "_comment": "Build and usage limits per role. Values are used by index.js and build-module.js.",
+  "roles": {
+    "owner": {
+      "dailyBuildLimit": -1,
+      "creditCost": 0,
+      "maxConcurrentBuilds": 5,
+      "canUseDebug": true,
+      "canUseRelease": true,
+      "canUseCopyBase": true
+    },
+    "admin": {
+      "dailyBuildLimit": -1,
+      "creditCost": 0,
+      "maxConcurrentBuilds": 3,
+      "canUseDebug": true,
+      "canUseRelease": true,
+      "canUseCopyBase": true
+    },
+    "reseller": {
+      "dailyBuildLimit": 20,
+      "creditCost": 1,
+      "maxConcurrentBuilds": 2,
+      "canUseDebug": true,
+      "canUseRelease": true,
+      "canUseCopyBase": true
+    },
+    "user": {
+      "dailyBuildLimit": 3,
+      "creditCost": 1,
+      "maxConcurrentBuilds": 1,
+      "canUseDebug": true,
+      "canUseRelease": true,
+      "canUseCopyBase": false
+    }
+  },
+  "global": {
+    "maxBuildTimeoutMs": 1800000,
+    "pollIntervalMs": 8000,
+    "defaultCredit": 3,
+    "weeklyBonusCredit": 2
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "_comment": "Active build jobs per user. Format: { \"userId\": { \"status\": \"building\", \"runId\": null, \"tag\": \"\", \"buildType\": \"release\", \"chatId\": 0, \"updatedAt\": 0, \"type\": \"flutter\" } }",
+  "_statuses": [
+    "waiting_zip",
+    "uploading",
+    "building",
+    "waiting_server_build"
+  ]
+}

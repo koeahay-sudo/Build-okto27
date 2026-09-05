@@ -1,0 +1,13 @@
+{
+  "users": {},
+  "admins": [],
+  "resellers": [],
+  "maintenance": false,
+  "maintenanceReason": "",
+  "maintenanceSince": null,
+  "credits": {},
+  "stats": {
+    "success": 0,
+    "failed": 0
+  }
+}

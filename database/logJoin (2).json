@@ -1,0 +1,5 @@
+{
+  "_comment": "Log setiap user baru yang join bot. Format: [ { userId, username, firstName, joinedAt, source } ]",
+  "totalJoins": 0,
+  "logs": []
+}
