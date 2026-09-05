@@ -1,0 +1,12 @@
+{
+  "_comment": "GitHub server credentials pool. Each entry is one GitHub account used as a build server.",
+  "_format": {
+    "token": "github personal access token (repo + workflow scope)",
+    "repo": "owner/repo-name",
+    "label": "display label for this server",
+    "active": true,
+    "currentJobs": 0,
+    "maxJobs": 3
+  },
+  "servers": []
+}
